@@ -15,7 +15,7 @@ export default component$(() => {
   return (
     <div>
       <h1
-        className={css({
+        class={css({
           fontWeight: 700,
         })}
         // As recommended by @emotion/css : dynamic styles should be added as inline "style" prop
@@ -28,7 +28,7 @@ export default component$(() => {
         idea how this would scale.
       </p>
       <div
-        className={css({
+        class={css({
           border: "1px solid #eee",
           color: "#000",
           borderRadius: 5,
